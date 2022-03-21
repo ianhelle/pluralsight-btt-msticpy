@@ -49,7 +49,6 @@ You can also use any of the other available providers:
 - IBM XForce
 - RiskIQ
 - ...
- 
 
 ## AntiVirus Warning
 
