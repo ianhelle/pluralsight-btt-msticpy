@@ -3,8 +3,11 @@
 This repository contains a Jupyter notebook and sample data
 for the MSTICPy Blue Team Tools module.
 
+![Course Title Page](./media/CourseTitle.png)
+
 In order to run the notebook you will need:
-- A Python environment
+
+- A Python environment (Python 3.8 or later)
 - Jupyter Notebook, Jupyter Lab or VSCode installed (other notebook environments should also work)
 - MSTICPy version 1.7.0 or later
   - the PowerShell code de-obfuscation functions are included in version 1.7.5 so these
@@ -15,21 +18,25 @@ In order to run the notebook you will need:
 
 You can view the notebook (without executing) directly in GitHub.
 You may find that NBViewer gives a high fidelity rendering of the notebook.
-You can try this here [Open the notebook in NBViewer]()
+You can try this here [Open the notebook in NBViewer](https://nbviewer.org/github/ianhelle/pluralsight-btt-msticpy/blob/main/MPP-BTT-notebook.ipynb)
 
 ## Running the notebook in MyBinder
 
-You can run the notebook in the MyBinder service. Please keep in mind a few things:
- 
- - MyBinder is a community service provided free, so please be responsible with how much load you put on it.
- - MyBinder has a kernel timeout of a few minutes, so if you leave the notebook to grab a coffee
-   the kernel may well have timed out by the time you return. You can simply restart it but be 
-   aware that your progress in the notebook will have been lost.
+You can run the notebook in the MyBinder service.
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ianhelle/pluralsight-btt-msticpy/HEAD?labpath=MPP-BTT-notebook.ipynb)
+
+Please keep in mind a few things:
+
+- MyBinder is a community service provided free, so please be responsible with how much load you put on it.
+- MyBinder has a kernel timeout of a few minutes, so if you leave the notebook to grab a coffee
+   the kernel may well have timed out by the time you return. You can simply restart it but be
+   aware that your progress in the notebook will have been lost.
 
 ## Threat Intelligence providers
 
-One of the cells uses AlienVault OTX for threat intelligence look-ups. For this to work you will need
+One of the cells uses AlienVault OTX for threat intelligence look-ups. For this to work you will need:
+
 - an AlienVault OTX (free) account
 - Have your OTX API key configured in your `msticpyconfig.yaml`
 
@@ -37,6 +44,7 @@ See [MSTICPy Threat Intelligence providers](https://msticpy.readthedocs.io/en/la
 for details on how to do this.
 
 You can also use any of the other available providers:
+
 - VirusTotal
 - IBM XForce
 - RiskIQ
@@ -54,4 +62,6 @@ need to exclude the folder holding these files from AV real-time scanning.
 
 ## Contact
 
-Please open an issue in this repo 
+Please open an issue in this repo if you hit any problems.
+You can also read out to me directly [@ianhellen Twitter](https://twitter.com/ianhellen)
+or [email ianhelle@microsoft.com](mailto:ianhelle@microsoft.com).
