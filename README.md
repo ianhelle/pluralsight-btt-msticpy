@@ -9,7 +9,7 @@ In order to run the notebook you will need:
 
 - A Python environment (Python 3.8 or later)
 - Jupyter Notebook, Jupyter Lab or VSCode installed (other notebook environments should also work)
-- MSTICPy version 1.7.0 or later
+- MSTICPy version 1.7.5 or later
   - the PowerShell code de-obfuscation functions are included in version 1.7.5 so these
     functions will not work with earlier versions. All of the other functionality is
     available in 1.7.0.
