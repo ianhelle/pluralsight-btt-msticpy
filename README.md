@@ -14,11 +14,15 @@ In order to run the notebook you will need:
     functions will not work with earlier versions. All of the other functionality is
     available in 1.7.0.
 
+---
+
 ## Viewing the Notebook
 
 You can view the notebook (without executing) directly in GitHub.
 You may find that NBViewer gives a high fidelity rendering of the notebook.
 You can try this here [Open the notebook in NBViewer](https://nbviewer.org/github/ianhelle/pluralsight-btt-msticpy/blob/main/MPP-BTT-notebook.ipynb)
+
+---
 
 ## Running the notebook in MyBinder
 
@@ -32,6 +36,16 @@ Please keep in mind a few things:
 - MyBinder has a kernel timeout of a few minutes, so if you leave the notebook to grab a coffee
    the kernel may well have timed out by the time you return. You can simply restart it but be
    aware that your progress in the notebook will have been lost.
+
+---
+
+## Running the notebook in a Docker container
+
+See the [RunInDocker](./RunInDocker.md) document in this repo.
+
+---
+
+# Other Items
 
 ## Threat Intelligence providers
 
@@ -59,7 +73,8 @@ alerts from your AV. In many cases, the files will be quarantined by the AV engi
 If your notebook or data files mysteriously disappear please check this. You may
 need to exclude the folder holding these files from AV real-time scanning.
 
-## Contact
+---
+# Contact
 
 Please open an issue in this repo if you hit any problems.
 You can also read out to me directly [@ianhellen Twitter](https://twitter.com/ianhellen)
